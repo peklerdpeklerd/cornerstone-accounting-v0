@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+:root {
+  /* Neutrals */
+  --background: #ffffff;
+  --foreground: #2f3b4c;
+  --muted: #f4f5f7;
+  --muted-foreground: #6b7686;
+  --border: #e5e7eb;
+
+  /* Brand */
+  --primary: #7a1416;
+  --primary-foreground: #ffffff;
+  --accent: #b3181c;
+
+  --radius: 0.75rem;
+
+  /* Measured sticky header height per breakpoint, used for scroll offsets */
+  --header-height: 101px;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --header-height: 110px;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-height: 119px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --header-height: 111px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --header-height: 129px;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+}
+
+html {
+  scroll-behavior: smooth;
+  /*
+   * Single source of scroll offset. Only scroll-padding-top is used here:
+   * combining it with scroll-margin-top on the targets would double the
+   * offset and overshoot the section heading.
+   */
+  scroll-padding-top: calc(var(--header-height) + 1.75rem);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+/* Consistent, visible keyboard focus */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/*
+ * Softens the existing FAQ / service panel toggles, which previously appeared
+ * instantly. Opacity and a 4px lift only, so no height is animated and no
+ * layout shift or broken height calculation can occur.
+ */
+@keyframes panel-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.panel-reveal {
+  animation: panel-reveal 200ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

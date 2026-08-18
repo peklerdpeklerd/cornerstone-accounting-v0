@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/business-solutions-services/dc-clean-hands-certificate",
+      "destination": "/#clean-hands",
+      "statusCode": 301
+    }
+  ]
+}
