@@ -20,6 +20,10 @@ const structuredData = {
   name: "Cornerstone Business Accounting Solutions",
   email: "info@accountingdc.com",
   telephone: "+1-202-422-2963",
+  sameAs: [
+    "https://www.facebook.com/CornerstoneBAS",
+    "https://www.instagram.com/1accountingdc/",
+  ],
   description:
     "Cornerstone Business Accounting Solutions provides forensic accounting, financial analysis, tax resolution, grant support, real estate development cost accounting, litigation financial support, compliance assistance, funding support, and business consultation.",
   knowsAbout: [
