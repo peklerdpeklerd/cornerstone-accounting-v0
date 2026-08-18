@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Facebook, Instagram } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -34,13 +35,19 @@ export function SiteFooter() {
       <div className="mx-auto w-full max-w-7xl px-5 py-14 sm:px-8 lg:px-10 lg:py-16">
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)_minmax(0,1.2fr)] lg:gap-12">
           <div>
-            <Image
-              src="/images/accounting-dc-cornerstone-logo-transparent.png"
-              alt="CornerStone Business Accounting Solutions"
-              width={760}
-              height={328}
-              className="h-auto w-[210px] object-contain"
-            />
+            <a
+              href="/"
+              aria-label="CornerStone Business Accounting Solutions — go to homepage"
+              className="inline-flex rounded-md transition-opacity hover:opacity-80"
+            >
+              <Image
+                src="/images/accounting-dc-cornerstone-logo-transparent.png"
+                alt="CornerStone Business Accounting Solutions"
+                width={760}
+                height={328}
+                className="h-auto w-[210px] object-contain"
+              />
+            </a>
 
             <p className="mt-4 max-w-sm text-[14px] leading-relaxed text-muted-foreground">
               CornerStone Business Accounting Solutions provides forensic
@@ -86,6 +93,38 @@ export function SiteFooter() {
                 </a>
               </li>
             </ul>
+
+            <div className="mt-5 flex flex-wrap gap-2.5">
+              <a
+                href="https://www.facebook.com/CornerstoneBAS"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit AccountingDC on Facebook"
+                className="group inline-flex items-center gap-2 rounded-md border border-border px-3 py-2 text-[13px] font-semibold text-foreground transition-all hover:-translate-y-0.5 hover:border-primary hover:text-primary"
+              >
+                <Facebook
+                  aria-hidden="true"
+                  className="h-4 w-4"
+                  strokeWidth={1.8}
+                />
+                Facebook
+              </a>
+
+              <a
+                href="https://www.instagram.com/1accountingdc/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit AccountingDC on Instagram"
+                className="group inline-flex items-center gap-2 rounded-md border border-border px-3 py-2 text-[13px] font-semibold text-foreground transition-all hover:-translate-y-0.5 hover:border-primary hover:text-primary"
+              >
+                <Instagram
+                  aria-hidden="true"
+                  className="h-4 w-4"
+                  strokeWidth={1.8}
+                />
+                Instagram
+              </a>
+            </div>
           </div>
 
           <nav aria-label="Footer navigation">
