@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Facebook, Instagram } from "lucide-react";
+
+import { FacebookIcon, InstagramIcon } from "@/components/social-icons";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -102,7 +103,7 @@ export function SiteFooter() {
                 aria-label="Visit AccountingDC on Facebook"
                 className="group inline-flex items-center gap-2 rounded-md border border-border px-3 py-2 text-[13px] font-semibold text-foreground transition-all hover:-translate-y-0.5 hover:border-primary hover:text-primary"
               >
-                <Facebook
+                <FacebookIcon
                   aria-hidden="true"
                   className="h-4 w-4"
                   strokeWidth={1.8}
@@ -117,7 +118,7 @@ export function SiteFooter() {
                 aria-label="Visit AccountingDC on Instagram"
                 className="group inline-flex items-center gap-2 rounded-md border border-border px-3 py-2 text-[13px] font-semibold text-foreground transition-all hover:-translate-y-0.5 hover:border-primary hover:text-primary"
               >
-                <Instagram
+                <InstagramIcon
                   aria-hidden="true"
                   className="h-4 w-4"
                   strokeWidth={1.8}
