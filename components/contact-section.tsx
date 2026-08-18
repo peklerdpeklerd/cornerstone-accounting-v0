@@ -636,7 +636,7 @@ export function ContactSection() {
 
                 <div className="min-w-0 flex-1">
                   <p className="text-[11px] font-semibold tracking-[0.14em] text-muted-foreground uppercase">
-                    Follow AccountingDC
+                    Follow or Message Us
                   </p>
 
                   <div className="mt-2 flex flex-wrap gap-2.5">
@@ -670,7 +670,8 @@ export function ContactSection() {
                   </div>
 
                   <p className="mt-2 text-[14px] leading-relaxed text-muted-foreground">
-                    Follow our official pages for updates and announcements.
+                    Follow our official pages for updates, or send us a direct
+                    message on Facebook or Instagram.
                   </p>
                 </div>
               </li>
