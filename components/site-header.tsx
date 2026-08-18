@@ -36,8 +36,8 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-5 py-3 sm:px-8 lg:gap-6 lg:px-10 lg:py-2">
         <a
-          href="#home"
-          aria-label="Cornerstone Business Accounting Solutions — back to top"
+          href="/"
+          aria-label="Cornerstone Business Accounting Solutions — go to homepage"
           className="flex shrink-0 items-center rounded-md transition-opacity hover:opacity-80"
         >
           <span className="flex items-center bg-transparent p-0 shadow-none">
