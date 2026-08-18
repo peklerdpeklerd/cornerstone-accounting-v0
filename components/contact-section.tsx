@@ -4,8 +4,6 @@ import {
   AlertCircle,
   ChevronDown,
   Clock,
-  Facebook,
-  Instagram,
   Loader2,
   LockKeyhole,
   Mail,
@@ -16,6 +14,8 @@ import {
   X,
 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+
+import { FacebookIcon, InstagramIcon } from "@/components/social-icons";
 
 import {
   CONTACT_METHODS,
@@ -646,7 +646,7 @@ export function ContactSection() {
                       rel="noopener noreferrer"
                       className="group inline-flex items-center gap-2 rounded-md border border-border px-3 py-2 text-[13px] font-semibold text-foreground transition-all hover:-translate-y-0.5 hover:border-primary hover:text-primary"
                     >
-                      <Facebook
+                      <FacebookIcon
                         aria-hidden="true"
                         className="h-4 w-4"
                         strokeWidth={1.8}
@@ -660,7 +660,7 @@ export function ContactSection() {
                       rel="noopener noreferrer"
                       className="group inline-flex items-center gap-2 rounded-md border border-border px-3 py-2 text-[13px] font-semibold text-foreground transition-all hover:-translate-y-0.5 hover:border-primary hover:text-primary"
                     >
-                      <Instagram
+                      <InstagramIcon
                         aria-hidden="true"
                         className="h-4 w-4"
                         strokeWidth={1.8}
