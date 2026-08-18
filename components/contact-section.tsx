@@ -4,11 +4,14 @@ import {
   AlertCircle,
   ChevronDown,
   Clock,
+  Facebook,
+  Instagram,
   Loader2,
   LockKeyhole,
   Mail,
   Pencil,
   Phone,
+  Share2,
   Smartphone,
   X,
 } from "lucide-react";
@@ -618,6 +621,56 @@ export function ContactSection() {
 
                   <p className="mt-3 text-[14px] leading-relaxed text-muted-foreground">
                     Call or send us a message directly.
+                  </p>
+                </div>
+              </li>
+
+              <li className="flex gap-4 rounded-[14px] border border-border bg-background p-4">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-[13px] bg-[#f7eaea] text-primary">
+                  <Share2
+                    aria-hidden="true"
+                    className="h-[22px] w-[22px]"
+                    strokeWidth={1.75}
+                  />
+                </span>
+
+                <div className="min-w-0 flex-1">
+                  <p className="text-[11px] font-semibold tracking-[0.14em] text-muted-foreground uppercase">
+                    Follow AccountingDC
+                  </p>
+
+                  <div className="mt-2 flex flex-wrap gap-2.5">
+                    <a
+                      href="https://www.facebook.com/CornerstoneBAS"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group inline-flex items-center gap-2 rounded-md border border-border px-3 py-2 text-[13px] font-semibold text-foreground transition-all hover:-translate-y-0.5 hover:border-primary hover:text-primary"
+                    >
+                      <Facebook
+                        aria-hidden="true"
+                        className="h-4 w-4"
+                        strokeWidth={1.8}
+                      />
+                      Facebook
+                    </a>
+
+                    <a
+                      href="https://www.instagram.com/1accountingdc/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group inline-flex items-center gap-2 rounded-md border border-border px-3 py-2 text-[13px] font-semibold text-foreground transition-all hover:-translate-y-0.5 hover:border-primary hover:text-primary"
+                    >
+                      <Instagram
+                        aria-hidden="true"
+                        className="h-4 w-4"
+                        strokeWidth={1.8}
+                      />
+                      Instagram
+                    </a>
+                  </div>
+
+                  <p className="mt-2 text-[14px] leading-relaxed text-muted-foreground">
+                    Follow our official pages for updates and announcements.
                   </p>
                 </div>
               </li>
