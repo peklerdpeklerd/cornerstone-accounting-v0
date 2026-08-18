@@ -20,6 +20,7 @@ const structuredData = {
   name: "Cornerstone Business Accounting Solutions",
   email: "info@accountingdc.com",
   telephone: "+1-202-422-2963",
+  // Official AccountingDC social profiles.
   sameAs: [
     "https://www.facebook.com/CornerstoneBAS",
     "https://www.instagram.com/1accountingdc/",
