@@ -124,7 +124,7 @@ export function LeadershipSection() {
             }`}
           >
             <p className="text-xs font-semibold tracking-[0.24em] text-foreground uppercase sm:text-sm">
-              Chief Executive Officer
+              Founder and Chief Executive Officer
             </p>
             <p className="mt-6 max-w-xl text-xl leading-relaxed font-medium text-foreground/80 sm:text-2xl sm:leading-relaxed">
               Experience that guides every decision and leadership grounded in
@@ -172,8 +172,8 @@ export function LeadershipSection() {
 
           <div className="group relative ml-4 aspect-4/5 overflow-hidden border border-white/90 bg-[#e6e6e9] shadow-[0_36px_80px_-40px_rgba(31,42,58,0.8)] sm:ml-6">
             <Image
-              src="/images/rowena-moyer.webp"
-              alt="Rowena Moyer, Chief Executive Officer of CornerStone Business Accounting Solutions"
+              src="/images/rowena-moyer.png"
+              alt="Rowena Moyer, Founder and Chief Executive Officer of CornerStone Business Accounting Solutions"
               fill
               sizes="(max-width: 640px) 82vw, (max-width: 1024px) 380px, 410px"
               className="object-cover object-top transition-transform duration-1000 ease-out group-hover:scale-[1.025]"
@@ -226,11 +226,15 @@ export function LeadershipSection() {
           >
             <div className="flex max-w-[720px] flex-col gap-5 text-[15px] leading-7 text-muted-foreground sm:text-base sm:leading-8">
               <p className="text-[16px] leading-7 text-foreground/85 sm:text-[17px] sm:leading-8">
-                Rowena Moyer leads CornerStone Business Accounting Solutions
-                with more than three decades of experience in financial
-                leadership, government and commercial contracting, forensic
-                accounting, tax resolution, budgeting, audits, and
-                accounting-system restructuring.
+                Rowena Moyer, founder and Chief Executive Officer of
+                CornerStone Business Accounting Solutions, brings more than 40
+                years of professional experience across accounting, finance,
+                financial management, business consulting, and strategic
+                business solutions. Her experience includes forensic
+                accounting, financial analysis, tax debt resolution, grant
+                funding, cost accounting, business restructuring,
+                controllership, budgeting, audits, and accounting-system
+                restructuring.
               </p>
 
               <p>
@@ -242,10 +246,16 @@ export function LeadershipSection() {
               </p>
 
               <p>
-                As a Certified Management Accountant with academic training in
-                accounting, mathematics, budget analysis, and federal
-                acquisition regulations, Rowena brings disciplined financial
-                insight and practical leadership to every engagement.
+                She has provided cost accounting and financial management
+                services in complex industries, including real estate
+                development and deep coal mining, and has managed and
+                supported DCAA (Defense Contract Audit Agency) audits. Her
+                government-contracting experience includes compliance, cost
+                controls, financial accountability, and federal acquisition
+                requirements. Rowena also has extensive experience evaluating
+                and restructuring business models to improve operational
+                efficiency, financial performance, sustainability, and
+                long-term growth.
               </p>
             </div>
 

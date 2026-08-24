@@ -55,8 +55,9 @@ export function SiteFooter() {
               accounting, financial analysis, tax resolution, compliance and
               licensing assistance, grant and loan funding support, real estate
               cost accounting, property tax analysis, landlord-tenant financial
-              support, and business management consultation—backed by more than
-              40 years of professional financial experience.
+              support, and business management consultation—backed by the
+              expertise of founder Rowena Moyer, CMA, who brings more than 40
+              years of professional financial and business experience.
             </p>
 
             <ul className="mt-5 flex flex-col gap-1.5 text-[14px] text-muted-foreground">

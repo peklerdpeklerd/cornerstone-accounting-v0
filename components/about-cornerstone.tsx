@@ -31,17 +31,17 @@ export function AboutCornerstone() {
 
           <div className="mt-6 flex max-w-2xl flex-col gap-4 text-[15px] leading-relaxed text-muted-foreground sm:text-base">
             <p>
-              For over 40 years, Cornerstone Business Accounting Solutions has
-              provided dependable accounting, financial management, and
-              business guidance built on real-world professional
-              experience&mdash;not just theory.
+              Founded by Rowena Moyer, CMA, Cornerstone Business Accounting
+              Solutions is guided by more than 40 years of professional
+              experience across accounting, finance, financial management,
+              business consulting, and strategic business solutions.
             </p>
 
             <p>
-              This broad experience allows Cornerstone to understand complex
-              financial challenges, improve financial processes, analyze
-              business performance, and provide practical solutions tailored to
-              each client&apos;s circumstances.
+              That depth of experience enables Cornerstone to understand
+              complex financial challenges, improve financial processes,
+              analyze business performance, and provide practical solutions
+              tailored to each client&apos;s circumstances.
             </p>
 
             <p>

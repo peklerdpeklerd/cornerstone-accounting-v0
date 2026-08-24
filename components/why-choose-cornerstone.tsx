@@ -18,7 +18,7 @@ const benefits: Benefit[] = [
   {
     title: "Decades of Financial Leadership",
     description:
-      "More than 40 years of accounting, controllership, financial management, and business experience.",
+      "Cornerstone's founder brings more than 40 years of professional experience in accounting, finance, financial management, business consulting, and strategic business solutions.",
     icon: Award,
   },
   {

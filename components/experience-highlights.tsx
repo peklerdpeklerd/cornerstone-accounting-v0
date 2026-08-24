@@ -18,9 +18,9 @@ type Highlight = {
 const highlights: Highlight[] = [
   {
     metric: "40+ Years",
-    label: "Professional experience",
+    label: "Founder experience",
     description:
-      "Accounting, financial management, controllership, and business leadership experience.",
+      "Rowena Moyer brings more than 40 years of professional experience in accounting, finance, financial management, business consulting, and strategic business solutions.",
     icon: CalendarClock,
   },
   {
