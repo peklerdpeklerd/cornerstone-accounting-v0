@@ -70,13 +70,12 @@ export function ExperienceHighlights() {
         </div>
 
         <h2 className="mt-4 max-w-3xl text-3xl leading-tight font-bold tracking-tight text-balance text-foreground sm:text-4xl md:text-[2.1rem] lg:text-[2.6rem] lg:leading-[1.15]">
-          Proven Experience. Practical Client Results.
+          Experience and Client Results
         </h2>
 
         <p className="mt-5 max-w-3xl text-[15px] leading-relaxed text-muted-foreground sm:text-base">
-          Rowena&apos;s career combines decades of financial leadership with
-          hands-on work involving accounting, audits, tax matters, property,
-          compliance, funding, and business operations.
+          Rowena&apos;s experience covers accounting, audits, tax matters, property,
+          compliance, funding, and the day-to-day financial needs of businesses.
         </p>
 
         <ul className="mt-10 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 lg:mt-12 lg:grid-cols-3 xl:gap-6">

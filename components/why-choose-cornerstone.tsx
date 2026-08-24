@@ -18,37 +18,37 @@ const benefits: Benefit[] = [
   {
     title: "40+ Years of Experience",
     description:
-      "Clients benefit from more than 40 years of Rowena Moyer's work in accounting, finance, financial management, and business consulting.",
+      "Rowena Moyer brings more than 40 years of experience in accounting, finance, financial management, and business consulting.",
     icon: Award,
   },
   {
     title: "Hands-On Advice",
     description:
-      "Recommendations come from experience dealing with real financial and operating problems—not from a one-size-fits-all approach.",
+      "Our recommendations come from years of working through real accounting, financial, and operating problems.",
     icon: Lightbulb,
   },
   {
     title: "Detailed Financial Review",
     description:
-      "We dig into the records, trace the numbers, and explain what they show.",
+      "We review the records carefully, trace the numbers when needed, and explain what we find.",
     icon: Target,
   },
   {
     title: "Confidential Work",
     description:
-      "Financial records and client information are handled carefully and with discretion.",
+      "We handle financial records and client information carefully and with discretion.",
     icon: ShieldCheck,
   },
   {
     title: "Work That Fits the Situation",
     description:
-      "The scope of each engagement is based on the client's records, goals, deadlines, and the problem that needs to be solved.",
+      "Every engagement is different. We base the work on the client's records, goals, deadlines, and the issue that needs attention.",
     icon: SlidersHorizontal,
   },
   {
     title: "Straightforward Communication",
     description:
-      "We explain financial issues in plain language so clients understand what is happening and what comes next.",
+      "We explain financial issues in plain language so clients understand what we found and what happens next.",
     icon: MessagesSquare,
   },
 ];
@@ -65,7 +65,7 @@ export function WhyChooseCornerstone() {
         </div>
 
         <h2 className="mt-4 max-w-3xl text-3xl leading-tight font-bold tracking-tight text-balance text-foreground sm:text-4xl md:text-[2.1rem] lg:text-[2.6rem] lg:leading-[1.15]">
-          Experienced Guidance Built Around Real Business Needs
+          What Clients Can Expect
         </h2>
 
         <ul className="mt-10 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 lg:mt-12 lg:grid-cols-3 xl:gap-6">

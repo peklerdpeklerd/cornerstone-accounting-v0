@@ -534,9 +534,9 @@ export function ContactSection() {
             </h2>
 
             <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-muted-foreground sm:text-base">
-              Tell us briefly what you need help with and any important deadline
-              we should know about. We&apos;ll review your message and follow up
-              about the next step.
+              Tell us briefly what you need help with and whether there is an
+              important deadline. We&apos;ll review your message and follow up about
+              the next step.
             </p>
 
             <ul className="mt-8 flex max-w-xl flex-col gap-4">

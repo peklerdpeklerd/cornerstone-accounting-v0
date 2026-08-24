@@ -1,7 +1,7 @@
 const trustFeatures = [
   {
-    title: "Reliable",
-    subtitle: "Business Solutions",
+    title: "Accounting",
+    subtitle: "and Financial Services",
     icon: (
       <svg
         aria-hidden="true"
@@ -19,8 +19,8 @@ const trustFeatures = [
     ),
   },
   {
-    title: "Experienced",
-    subtitle: "Professionals",
+    title: "Rowena Moyer",
+    subtitle: "40+ Years of Experience",
     icon: (
       <svg
         aria-hidden="true"
@@ -40,8 +40,8 @@ const trustFeatures = [
     ),
   },
   {
-    title: "Secure &",
-    subtitle: "Confidential",
+    title: "Confidential",
+    subtitle: "Client Information",
     icon: (
       <svg
         aria-hidden="true"
@@ -68,7 +68,7 @@ export function Hero() {
         {/* Left column: copy */}
         <div className="flex flex-col justify-center">
           <p className="text-xs font-semibold tracking-[0.22em] text-muted-foreground uppercase">
-            Your Trusted Accounting Partner
+            Accounting and Financial Services
           </p>
 
           <h1 className="mt-5 text-4xl leading-tight font-bold tracking-tight text-balance sm:text-5xl md:text-[2.6rem] lg:text-[3.2rem] lg:leading-[1.1]">
@@ -77,11 +77,10 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Cornerstone helps businesses, organizations, property owners, and
-            individuals work through accounting, tax, funding, compliance, and
-            financial challenges. We focus on understanding the numbers,
-            identifying the problem, and helping clients determine the right
-            next step.
+            Cornerstone works with businesses, organizations, property owners,
+            and individuals on accounting, tax, funding, compliance, and other
+            financial matters. We review the situation, help make sense of the
+            numbers, and work with clients on the next steps.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">

@@ -43,9 +43,9 @@ export function IndustriesServed() {
 
         <p className="mt-5 max-w-3xl text-[15px] leading-relaxed text-muted-foreground sm:text-base">
           Cornerstone works with businesses, organizations, property owners,
-          developers, and professionals whose financial needs can vary widely
-          by industry. That experience helps us understand the records,
-          requirements, and operational issues behind each engagement.
+          developers, and professionals across a range of industries. Each
+          engagement is different, so the records, requirements, and financial
+          issues can be different too.
         </p>
 
         <ul className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:mt-12 lg:grid-cols-4">

@@ -3,25 +3,25 @@ const steps = [
     step: "01",
     title: "Initial Conversation",
     description:
-      "We start by learning what happened, what you need help with, what records are available, and whether there are any deadlines.",
+      "We start by learning what you need help with, what records are available, and whether there are any important deadlines.",
   },
   {
     step: "02",
     title: "Review the Records",
     description:
-      "We examine the financial statements, tax notices, property records, applications, contracts, or other documents relevant to the matter.",
+      "We review the financial statements, tax notices, property records, applications, contracts, or other documents related to the matter.",
   },
   {
     step: "03",
     title: "Explain What We Find",
     description:
-      "We identify the key issues, explain what the records show, and discuss the practical options available.",
+      "We identify the main issues, explain what the records show, and discuss the available next steps.",
   },
   {
     step: "04",
     title: "Next Steps",
     description:
-      "Once the scope is agreed, we handle the accounting, analysis, documentation, application, resolution, or advisory work required.",
+      "Once we agree on the scope of work, we move forward with the accounting, analysis, documentation, application, resolution, or advisory work needed.",
   },
 ];
 
@@ -61,9 +61,9 @@ export function ClientProcess() {
         </ol>
 
         <p className="mt-8 max-w-3xl text-[13px] leading-relaxed text-muted-foreground">
-          The exact process depends on the engagement. Some matters require
-          additional records, outside agencies, lenders, tax authorities,
-          attorneys, or other professionals.
+          The process can vary depending on the engagement. Some matters may
+          involve additional records, government agencies, lenders, tax
+          authorities, attorneys, or other professionals.
         </p>
       </div>
     </section>

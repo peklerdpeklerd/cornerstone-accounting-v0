@@ -7,9 +7,8 @@ export function ConsultationCta() {
             Need Help With an Accounting or Financial Matter?
           </h2>
           <p className="mt-4 text-[15px] leading-relaxed text-primary-foreground/85 sm:text-base">
-            Tell us what you&apos;re dealing with. We can review the situation and
-            determine whether Cornerstone is the right fit for the work you
-            need.
+            Tell us what you need help with. We&apos;ll review the situation and
+            determine whether Cornerstone is the right fit for the work.
           </p>
         </div>
 

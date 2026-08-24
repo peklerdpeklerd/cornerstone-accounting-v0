@@ -213,7 +213,7 @@ export function LeadershipSection() {
               A Record of Leadership
             </p>
             <h3 className="mt-5 border-l-2 border-primary pl-5 text-3xl leading-tight font-bold tracking-tight text-foreground sm:text-4xl">
-              Clarity, discipline, and practical financial leadership.
+              Accounting and financial experience.
             </h3>
           </div>
 
@@ -226,35 +226,38 @@ export function LeadershipSection() {
           >
             <div className="flex max-w-[720px] flex-col gap-5 text-[15px] leading-7 text-muted-foreground sm:text-base sm:leading-8">
               <p className="text-[16px] leading-7 text-foreground/85 sm:text-[17px] sm:leading-8">
-                Rowena Moyer, CMA, founded Cornerstone Business Accounting
-                Solutions after a career spanning more than 40 years in
+                Rowena Moyer, CMA, brings more than 40 years of experience in
                 accounting, finance, financial management, and business
-                consulting. Her work has included controllership, budgeting,
+                consulting. Her background includes controllership, budgeting,
                 audits, forensic accounting, tax debt resolution, grant
-                funding, cost accounting, financial analysis, and the
-                restructuring of accounting systems and business operations.
+                funding, cost accounting, financial analysis, and restructuring
+                accounting systems and business operations.
               </p>
 
               <p>
-                During her career, she negotiated a favorable $300,000 HUD
-                contract claim, managed a $12 million HoDAG cost-certification
-                audit, completed three fiscal-year audits within two years, and
-                helped restore delayed accounting operations across six business
-                entities.
+                Her work has included negotiating a favorable $300,000 HUD
+                contract claim, managing a $12 million HoDAG cost-certification
+                audit, completing three fiscal-year audits within two years,
+                and helping restore delayed accounting operations across six
+                business entities.
               </p>
 
               <p>
-                Rowena has also worked in real estate development and deep coal
-                mining, where cost accounting and financial controls were an
-                important part of the job. She has managed and supported DCAA
-                (Defense Contract Audit Agency) audits and worked with
+                She has also worked in real estate development and deep coal
+                mining, where cost accounting and financial controls were
+                central to the work. Rowena has managed and supported DCAA
+                (Defense Contract Audit Agency) audits and handled
                 government-contracting requirements involving compliance, cost
                 controls, financial accountability, and federal acquisition
-                requirements. A recurring part of her work has been helping
-                businesses strengthen their financial structure. That has meant
-                reviewing how a business operates, identifying weak points, and
-                reorganizing financial and operating processes so management has
-                better information and better control.
+                requirements.
+              </p>
+
+              <p>
+                Much of her work has focused on helping businesses strengthen
+                the way they manage their finances. That includes reviewing how
+                a business operates, identifying weak points, and reorganizing
+                financial and operating processes so management has clearer
+                information and better control.
               </p>
             </div>
 

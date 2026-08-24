@@ -38,16 +38,15 @@ export function AboutCornerstone() {
             </p>
 
             <p>
-              Over the years, she has worked with businesses and organizations
-              facing everything from day-to-day accounting problems to audits,
-              tax matters, financial restructuring, government-contracting
+              Her work has included day-to-day accounting issues, audits, tax
+              matters, financial restructuring, government-contracting
               requirements, and complex financial reviews.
             </p>
 
             <p>
-              That experience shapes how Cornerstone works today: understand
-              the records, identify the problem, explain what the numbers mean,
-              and help the client decide what to do next.
+              That experience still shapes the way Cornerstone works today. We
+              review the records, identify the problem, explain what the
+              numbers mean, and help clients decide what to do next.
             </p>
           </div>
         </div>
