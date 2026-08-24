@@ -51,13 +51,11 @@ export function SiteFooter() {
             </a>
 
             <p className="mt-4 max-w-sm text-[14px] leading-relaxed text-muted-foreground">
-              CornerStone Business Accounting Solutions provides forensic
-              accounting, financial analysis, tax resolution, compliance and
-              licensing assistance, grant and loan funding support, real estate
-              cost accounting, property tax analysis, landlord-tenant financial
-              support, and business management consultation—backed by the
-              expertise of founder Rowena Moyer, CMA, who brings more than 40
-              years of professional financial and business experience.
+              Cornerstone Business Accounting Solutions provides accounting,
+              financial analysis, tax resolution, funding support, compliance
+              assistance, real estate cost accounting, and business consulting.
+              The firm was founded by Rowena Moyer, CMA, who brings more than
+              40 years of professional experience.
             </p>
 
             <ul className="mt-5 flex flex-col gap-1.5 text-[14px] text-muted-foreground">

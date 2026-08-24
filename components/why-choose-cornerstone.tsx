@@ -16,39 +16,39 @@ type Benefit = {
 
 const benefits: Benefit[] = [
   {
-    title: "Decades of Financial Leadership",
+    title: "40+ Years of Experience",
     description:
-      "Cornerstone's founder brings more than 40 years of professional experience in accounting, finance, financial management, business consulting, and strategic business solutions.",
+      "Clients benefit from more than 40 years of Rowena Moyer's work in accounting, finance, financial management, and business consulting.",
     icon: Award,
   },
   {
-    title: "Practical, Real-World Perspective",
+    title: "Hands-On Advice",
     description:
-      "Recommendations are based on hands-on leadership and operational experience, not theory alone.",
+      "Recommendations come from experience dealing with real financial and operating problems—not from a one-size-fits-all approach.",
     icon: Lightbulb,
   },
   {
-    title: "Specialized Financial Analysis",
+    title: "Detailed Financial Review",
     description:
-      "Clear analysis of complex financial records, transactions, costs, taxes, property activity, and business performance.",
+      "We dig into the records, trace the numbers, and explain what they show.",
     icon: Target,
   },
   {
-    title: "Confidential and Professional Service",
+    title: "Confidential Work",
     description:
-      "Client information and financial matters are handled with professionalism, discretion, and care.",
+      "Financial records and client information are handled carefully and with discretion.",
     icon: ShieldCheck,
   },
   {
-    title: "Solutions Tailored to the Client",
+    title: "Work That Fits the Situation",
     description:
-      "Services are adapted to the client's records, goals, industry, financial circumstances, and operational needs.",
+      "The scope of each engagement is based on the client's records, goals, deadlines, and the problem that needs to be solved.",
     icon: SlidersHorizontal,
   },
   {
-    title: "Clear Communication",
+    title: "Straightforward Communication",
     description:
-      "Complex accounting and financial matters are explained in practical and understandable language.",
+      "We explain financial issues in plain language so clients understand what is happening and what comes next.",
     icon: MessagesSquare,
   },
 ];

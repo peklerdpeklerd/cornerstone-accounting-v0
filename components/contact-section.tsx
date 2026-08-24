@@ -534,9 +534,9 @@ export function ContactSection() {
             </h2>
 
             <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-muted-foreground sm:text-base">
-              Provide a brief description of the assistance you need. Cornerstone
-              will review your inquiry and follow up regarding the appropriate
-              next step.
+              Tell us briefly what you need help with and any important deadline
+              we should know about. We&apos;ll review your message and follow up
+              about the next step.
             </p>
 
             <ul className="mt-8 flex max-w-xl flex-col gap-4">

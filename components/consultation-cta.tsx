@@ -4,12 +4,12 @@ export function ConsultationCta() {
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-5 py-14 sm:px-8 sm:py-16 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-20">
         <div className="max-w-2xl">
           <h2 className="text-3xl leading-tight font-bold tracking-tight text-balance text-primary-foreground sm:text-4xl md:text-[2.1rem] lg:text-[2.4rem] lg:leading-[1.15]">
-            Need Clear Financial Direction?
+            Need Help With an Accounting or Financial Matter?
           </h2>
           <p className="mt-4 text-[15px] leading-relaxed text-primary-foreground/85 sm:text-base">
-            Discuss your accounting, financial analysis, tax, property, funding,
-            compliance, licensing, or business needs with Cornerstone Business
-            Accounting Solutions.
+            Tell us what you&apos;re dealing with. We can review the situation and
+            determine whether Cornerstone is the right fit for the work you
+            need.
           </p>
         </div>
 

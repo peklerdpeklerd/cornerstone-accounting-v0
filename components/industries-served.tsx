@@ -38,14 +38,14 @@ export function IndustriesServed() {
         </div>
 
         <h2 className="mt-4 max-w-3xl text-3xl leading-tight font-bold tracking-tight text-balance text-foreground sm:text-4xl md:text-[2.1rem] lg:text-[2.6rem] lg:leading-[1.15]">
-          Financial Experience Across Diverse Sectors
+          Experience Across Different Industries
         </h2>
 
         <p className="mt-5 max-w-3xl text-[15px] leading-relaxed text-muted-foreground sm:text-base">
-          Cornerstone&apos;s broad accounting and financial leadership
-          experience supports businesses, organizations, property owners,
-          developers, and professionals facing a wide range of financial and
-          operational challenges.
+          Cornerstone works with businesses, organizations, property owners,
+          developers, and professionals whose financial needs can vary widely
+          by industry. That experience helps us understand the records,
+          requirements, and operational issues behind each engagement.
         </p>
 
         <ul className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:mt-12 lg:grid-cols-4">

@@ -127,8 +127,8 @@ export function LeadershipSection() {
               Founder and Chief Executive Officer
             </p>
             <p className="mt-6 max-w-xl text-xl leading-relaxed font-medium text-foreground/80 sm:text-2xl sm:leading-relaxed">
-              Experience that guides every decision and leadership grounded in
-              measurable results.
+              More than 40 years of hands-on accounting and financial
+              leadership.
             </p>
           </div>
 
@@ -226,36 +226,35 @@ export function LeadershipSection() {
           >
             <div className="flex max-w-[720px] flex-col gap-5 text-[15px] leading-7 text-muted-foreground sm:text-base sm:leading-8">
               <p className="text-[16px] leading-7 text-foreground/85 sm:text-[17px] sm:leading-8">
-                Rowena Moyer, founder and Chief Executive Officer of
-                CornerStone Business Accounting Solutions, brings more than 40
-                years of professional experience across accounting, finance,
-                financial management, business consulting, and strategic
-                business solutions. Her experience includes forensic
-                accounting, financial analysis, tax debt resolution, grant
-                funding, cost accounting, business restructuring,
-                controllership, budgeting, audits, and accounting-system
-                restructuring.
+                Rowena Moyer, CMA, founded Cornerstone Business Accounting
+                Solutions after a career spanning more than 40 years in
+                accounting, finance, financial management, and business
+                consulting. Her work has included controllership, budgeting,
+                audits, forensic accounting, tax debt resolution, grant
+                funding, cost accounting, financial analysis, and the
+                restructuring of accounting systems and business operations.
               </p>
 
               <p>
-                Her career has included negotiating a favorable $300,000 HUD
-                contract claim, managing a $12 million HoDAG cost-certification
-                audit, completing three fiscal-year audits within two years,
-                and helping restore delayed accounting operations across six
-                business entities.
+                During her career, she negotiated a favorable $300,000 HUD
+                contract claim, managed a $12 million HoDAG cost-certification
+                audit, completed three fiscal-year audits within two years, and
+                helped restore delayed accounting operations across six business
+                entities.
               </p>
 
               <p>
-                She has provided cost accounting and financial management
-                services in complex industries, including real estate
-                development and deep coal mining, and has managed and
-                supported DCAA (Defense Contract Audit Agency) audits. Her
-                government-contracting experience includes compliance, cost
+                Rowena has also worked in real estate development and deep coal
+                mining, where cost accounting and financial controls were an
+                important part of the job. She has managed and supported DCAA
+                (Defense Contract Audit Agency) audits and worked with
+                government-contracting requirements involving compliance, cost
                 controls, financial accountability, and federal acquisition
-                requirements. Rowena also has extensive experience evaluating
-                and restructuring business models to improve operational
-                efficiency, financial performance, sustainability, and
-                long-term growth.
+                requirements. A recurring part of her work has been helping
+                businesses strengthen their financial structure. That has meant
+                reviewing how a business operates, identifying weak points, and
+                reorganizing financial and operating processes so management has
+                better information and better control.
               </p>
             </div>
 

@@ -77,10 +77,11 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Cornerstone Business Accounting Solutions provides practical
-            accounting, financial analysis, tax resolution, compliance,
-            funding, and business advisory services designed to help
-            organizations operate efficiently and grow with confidence.
+            Cornerstone helps businesses, organizations, property owners, and
+            individuals work through accounting, tax, funding, compliance, and
+            financial challenges. We focus on understanding the numbers,
+            identifying the problem, and helping clients determine the right
+            next step.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">

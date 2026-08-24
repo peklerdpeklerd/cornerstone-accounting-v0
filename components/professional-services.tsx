@@ -80,7 +80,7 @@ export const services: Service[] = [
     id: "forensic-accounting",
     title: "Forensic Accounting",
     description:
-      "Detailed examination and reconstruction of financial records to identify discrepancies, trace transactions, investigate irregularities, clarify complex financial activity, and provide understandable financial findings.",
+      "We review and, when necessary, rebuild financial records to trace transactions, identify discrepancies, and explain what happened in clear terms.",
     details: [
       "Reconstruction of incomplete or disorganized financial records",
       "Transaction tracing and reconciliation of accounts",
@@ -94,7 +94,7 @@ export const services: Service[] = [
     id: "financial-analysis",
     title: "Financial Analysis",
     description:
-      "Financial statement review, cash-flow analysis, budgeting, forecasting, performance evaluation, financial modeling, and decision-support services for businesses and organizations.",
+      "We review financial statements, cash flow, budgets, forecasts, and other financial information to help clients understand performance and make informed decisions.",
     details: [
       "Financial statement review and ratio analysis",
       "Cash-flow analysis, budgeting, and forecasting",
@@ -108,7 +108,7 @@ export const services: Service[] = [
     id: "grant-support",
     title: "Grant Acquisition and Application Support",
     description:
-      "Assistance with identifying appropriate grant opportunities, preparing financial documentation, organizing application materials, and supporting government and nonprofit grant submissions.",
+      "We help clients identify appropriate grant opportunities, organize financial records, prepare budgets and supporting documents, and assemble application materials.",
     details: [
       "Identification of grant opportunities that fit the organization",
       "Preparation of budgets and required financial documentation",
@@ -123,7 +123,7 @@ export const services: Service[] = [
     id: "landlord-tenant-support",
     title: "Rental and Landlord-Tenant Litigation Financial Support",
     description:
-      "Accounting and financial analysis for rental, landlord-tenant, and property-related disputes, including review of rental income, expenses, payment histories, financial records, and supporting documentation.",
+      "We review rental income, expenses, payment histories, ledgers, and other financial records for landlord-tenant and property-related matters.",
     details: [
       "Review of rental income, expenses, and payment histories",
       "Reconciliation of ledgers, deposits, and credits",
@@ -138,7 +138,7 @@ export const services: Service[] = [
     id: "property-tax-analysis",
     title: "Rental and Property Tax Analysis",
     description:
-      "Historical analysis of rental activity, property-related expenses, financial documentation, and property tax records, including reviews covering periods of up to five years when complete records are available.",
+      "We analyze rental activity, property expenses, and property tax records, including multi-year reviews when complete records are available.",
     details: [
       "Historical rental activity and occupancy analysis",
       "Property-related expense and capital cost review",
@@ -152,7 +152,7 @@ export const services: Service[] = [
     id: "clean-hands",
     title: "DC Certificate of Clean Hands Assistance",
     description:
-      "Assistance with reviewing and organizing financial, tax, and compliance documentation needed to apply for or maintain a District of Columbia Certificate of Clean Hands.",
+      "We help clients review tax and compliance records, organize supporting documents, and prepare the financial information needed for a DC Certificate of Clean Hands.",
     details: [
       "Review of outstanding balances and compliance documentation",
       "Organization of tax filings and supporting records",
@@ -167,7 +167,7 @@ export const services: Service[] = [
     id: "cannabis-license",
     title: "Cannabis License Acquisition Support",
     description:
-      "Business, accounting, financial documentation, budgeting, application preparation, and operational support for organizations pursuing cannabis-related licenses.",
+      "We assist with the business and financial side of cannabis license applications, including budgets, projections, financial documentation, and application organization.",
     details: [
       "Business and financial documentation for license applications",
       "Startup budgeting, projections, and capitalization schedules",
@@ -182,7 +182,7 @@ export const services: Service[] = [
     id: "real-estate-cost-accounting",
     title: "Cost Accounting for Real Estate Development",
     description:
-      "Project-level cost accounting, construction and development cost tracking, cost allocation, budget-to-actual analysis, financial reporting, profitability analysis, and development financial controls.",
+      "We track construction and development costs by project, phase, unit, or cost code; compare budgets with actual spending; and help management understand project costs and profitability.",
     details: [
       "Project-level cost tracking for construction and development",
       "Cost allocation across phases, units, and cost codes",
@@ -196,7 +196,7 @@ export const services: Service[] = [
     id: "tax-resolution",
     title: "Tax Resolution",
     description:
-      "Practical assistance for individuals and businesses dealing with outstanding tax obligations, tax notices, payment concerns, documentation requirements, and tax-related financial matters.",
+      "We help individuals and businesses review tax notices, organize missing records, understand outstanding obligations, and prepare financial information for dealing with tax authorities.",
     details: [
       "Review of tax notices and outstanding obligations",
       "Organization of records and missing documentation",
@@ -211,7 +211,7 @@ export const services: Service[] = [
     id: "offer-in-compromise",
     title: "Offer in Compromise Support",
     description:
-      "Financial analysis and documentation assistance for qualifying taxpayers pursuing an Offer in Compromise with the appropriate tax authority.",
+      "For taxpayers pursuing an Offer in Compromise, we help analyze income, expenses, assets, and equity and prepare the supporting financial documentation required by the tax authority.",
     details: [
       "Analysis of income, expenses, assets, and equity",
       "Preparation of the supporting financial documentation",
@@ -226,7 +226,7 @@ export const services: Service[] = [
     id: "loan-funding",
     title: "Loan Funding Acquisition Support",
     description:
-      "Assistance with financial statements, projections, business documentation, lender-readiness reviews, loan packages, and funding applications.",
+      "We help businesses prepare for a loan application by organizing financial statements, projections, business documents, and the lender package.",
     details: [
       "Preparation of financial statements and projections",
       "Lender-readiness review of business documentation",
@@ -241,12 +241,12 @@ export const services: Service[] = [
     id: "business-management",
     title: "Business Management Consultation",
     description:
-      "Practical guidance designed to improve financial controls, reporting, budgeting, internal processes, operational efficiency, management decisions, and long-term organizational performance.",
+      "We work with owners and managers to improve financial controls, reporting, budgeting, internal processes, cost management, and the information they use to make business decisions.",
     details: [
-      "Assessment of financial controls and reporting practices",
-      "Budgeting, planning, and internal process improvement",
-      "Operational efficiency and cost management guidance",
-      "Ongoing advisory support for management decisions",
+      "Review of financial controls and reporting",
+      "Budgeting, planning, and internal process review",
+      "Cost management and process improvement",
+      "Ongoing support for management decisions",
     ],
     icon: BriefcaseBusiness,
     theme: themes.consulting,
@@ -363,14 +363,14 @@ export function ProfessionalServices() {
         </div>
 
         <h2 className="mt-4 max-w-3xl text-3xl leading-tight font-bold tracking-tight text-balance text-foreground sm:text-4xl md:text-[2.1rem] lg:text-[2.6rem] lg:leading-[1.15]">
-          Practical Accounting, Financial, Tax, and Business Solutions
+          Accounting, Financial, Tax, and Business Services
         </h2>
 
         <p className="mt-5 max-w-3xl text-[15px] leading-relaxed text-muted-foreground sm:text-base">
-          Cornerstone provides specialized accounting, financial analysis, tax
-          resolution, litigation support, compliance, licensing, grant, funding,
-          real estate, and business management services based on each
-          client&apos;s specific needs.
+          Every client comes to us with a different situation. Our work ranges
+          from reviewing financial records and resolving accounting problems to
+          tax matters, funding applications, real estate cost accounting,
+          compliance, and business consulting.
         </p>
 
         <ul

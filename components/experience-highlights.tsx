@@ -18,9 +18,9 @@ type Highlight = {
 const highlights: Highlight[] = [
   {
     metric: "40+ Years",
-    label: "Founder experience",
+    label: "Professional Experience",
     description:
-      "Rowena Moyer brings more than 40 years of professional experience in accounting, finance, financial management, business consulting, and strategic business solutions.",
+      "Rowena Moyer brings more than 40 years of experience in accounting, finance, financial management, and business consulting.",
     icon: CalendarClock,
   },
   {
@@ -74,9 +74,9 @@ export function ExperienceHighlights() {
         </h2>
 
         <p className="mt-5 max-w-3xl text-[15px] leading-relaxed text-muted-foreground sm:text-base">
-          Cornerstone combines decades of financial leadership with recent
-          hands-on experience helping clients address complex accounting, tax,
-          property, compliance, licensing, and funding matters.
+          Rowena&apos;s career combines decades of financial leadership with
+          hands-on work involving accounting, audits, tax matters, property,
+          compliance, funding, and business operations.
         </p>
 
         <ul className="mt-10 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 lg:mt-12 lg:grid-cols-3 xl:gap-6">

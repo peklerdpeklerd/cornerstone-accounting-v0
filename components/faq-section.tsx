@@ -6,9 +6,9 @@ import { useState } from "react";
 const faqs = [
   {
     id: "clients",
-    question: "What types of clients does Cornerstone assist?",
+    question: "Who does Cornerstone work with?",
     answer:
-      "Cornerstone assists individuals, businesses, nonprofit organizations, property owners, real estate developers, regulated businesses, and other organizations needing accounting, financial, tax, compliance, funding, or business support.",
+      "We work with individuals, businesses, nonprofit organizations, property owners, real estate developers, regulated businesses, and other organizations that need accounting or financial assistance.",
   },
   {
     id: "legal",

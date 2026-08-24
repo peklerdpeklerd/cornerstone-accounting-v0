@@ -1,27 +1,27 @@
 const steps = [
   {
     step: "01",
-    title: "Initial Consultation",
+    title: "Initial Conversation",
     description:
-      "We discuss the client's situation, goals, deadlines, available records, and the type of assistance required.",
+      "We start by learning what happened, what you need help with, what records are available, and whether there are any deadlines.",
   },
   {
     step: "02",
-    title: "Document and Financial Review",
+    title: "Review the Records",
     description:
-      "Cornerstone reviews the available financial records, tax documents, property records, applications, reports, or supporting materials.",
+      "We examine the financial statements, tax notices, property records, applications, contracts, or other documents relevant to the matter.",
   },
   {
     step: "03",
-    title: "Analysis and Action Plan",
+    title: "Explain What We Find",
     description:
-      "We identify the relevant financial issues and develop a practical plan based on the engagement.",
+      "We identify the key issues, explain what the records show, and discuss the practical options available.",
   },
   {
     step: "04",
-    title: "Ongoing Support",
+    title: "Next Steps",
     description:
-      "We provide the agreed accounting, financial analysis, documentation, application, resolution, or advisory support.",
+      "Once the scope is agreed, we handle the accounting, analysis, documentation, application, resolution, or advisory work required.",
   },
 ];
 
@@ -37,7 +37,7 @@ export function ClientProcess() {
         </div>
 
         <h2 className="mt-4 max-w-3xl text-3xl leading-tight font-bold tracking-tight text-balance text-foreground sm:text-4xl md:text-[2.1rem] lg:text-[2.6rem] lg:leading-[1.15]">
-          A Clear and Practical Client Process
+          How We Work With Clients
         </h2>
 
         <ol className="mt-10 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 lg:mt-12 lg:grid-cols-4 xl:gap-6">
@@ -61,9 +61,9 @@ export function ClientProcess() {
         </ol>
 
         <p className="mt-8 max-w-3xl text-[13px] leading-relaxed text-muted-foreground">
-          Each engagement is different. The steps above describe Cornerstone&apos;s
-          general working approach and do not represent a uniform legal or
-          regulatory process for every service.
+          The exact process depends on the engagement. Some matters require
+          additional records, outside agencies, lenders, tax authorities,
+          attorneys, or other professionals.
         </p>
       </div>
     </section>
