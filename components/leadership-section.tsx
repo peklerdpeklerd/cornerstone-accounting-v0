@@ -106,7 +106,7 @@ export function LeadershipSection() {
           <div className="mt-1 overflow-hidden pb-2">
             <h2
               id="leadership-heading"
-              className={`max-w-3xl text-4xl leading-[1] font-bold tracking-[-0.04em] text-balance text-primary transition-[opacity,transform] delay-[250ms] duration-1000 ease-out sm:text-5xl lg:text-[3.8rem] ${
+              className={`max-w-3xl text-4xl leading-[1.02] font-bold tracking-[-0.035em] text-balance text-primary transition-[opacity,transform] delay-[250ms] duration-1000 ease-out sm:text-[2.75rem] lg:text-[3.25rem] ${
                 introVisible
                   ? "translate-y-0 opacity-100"
                   : "translate-y-[115%] opacity-0"
@@ -125,9 +125,6 @@ export function LeadershipSection() {
           >
             <p className="text-xs font-semibold tracking-[0.24em] text-foreground uppercase sm:text-sm">
               Founder and Chief Executive Officer
-            </p>
-            <p className="mt-6 max-w-xl text-xl leading-relaxed font-medium text-foreground/80 sm:text-2xl sm:leading-relaxed">
-              30+ Years
             </p>
           </div>
 
