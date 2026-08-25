@@ -225,7 +225,7 @@ export function LeadershipSection() {
           >
             <div className="flex max-w-[720px] flex-col gap-5 text-[15px] leading-7 text-muted-foreground sm:text-base sm:leading-8">
               <p className="text-[16px] leading-7 text-foreground/85 sm:text-[17px] sm:leading-8">
-                Rowena Moyer, CMA, brings more than 40 years of experience in
+                Rowena Moyer, CMA, brings more than 30 years of experience in
                 accounting, finance, financial management, and business
                 consulting. Her background includes controllership, budgeting,
                 audits, forensic accounting, tax debt resolution, grant
