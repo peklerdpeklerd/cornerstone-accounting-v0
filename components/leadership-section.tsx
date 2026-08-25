@@ -91,11 +91,23 @@ export function LeadershipSection() {
             </p>
           </div>
 
-          <div className="mt-10 flex flex-col items-start gap-4 sm:mt-12 sm:gap-5">
-            <div className="overflow-hidden pb-2">
+          <div className="mt-9 max-w-[610px]">
+            <div className="pb-1">
+              <p
+                className={`text-[1.7rem] leading-[1.2] font-medium text-muted-foreground transition-[opacity,transform] delay-150 duration-700 ease-out sm:text-[1.95rem] ${
+                  introVisible
+                    ? "translate-y-0 opacity-100"
+                    : "translate-y-full opacity-0"
+                }`}
+              >
+                Introducing
+              </p>
+            </div>
+
+            <div className="mt-2 pb-2">
               <h2
                 id="leadership-heading"
-                className={`max-w-3xl text-4xl leading-[1.02] font-bold tracking-[-0.035em] text-balance text-primary transition-[opacity,transform] delay-[250ms] duration-1000 ease-out sm:text-[2.75rem] lg:text-[3.25rem] ${
+                className={`max-w-[610px] text-[2.7rem] leading-[1.03] font-bold tracking-[-0.038em] text-primary transition-[opacity,transform] delay-[250ms] duration-1000 ease-out sm:text-[3.2rem] lg:text-[3.55rem] ${
                   introVisible
                     ? "translate-y-0 opacity-100"
                     : "translate-y-[115%] opacity-0"
@@ -106,7 +118,7 @@ export function LeadershipSection() {
             </div>
 
             <div
-              className={`transition-[opacity,transform] delay-[450ms] duration-700 ease-out ${
+              className={`mt-5 transition-[opacity,transform] delay-[450ms] duration-700 ease-out ${
                 introVisible
                   ? "translate-y-0 opacity-100"
                   : "translate-y-8 opacity-0"
@@ -115,14 +127,15 @@ export function LeadershipSection() {
               <p className="text-[11px] font-semibold tracking-[0.28em] text-foreground uppercase sm:text-xs">
                 Founder and Chief Executive Officer
               </p>
-              <p className="mt-5 text-xl font-medium text-foreground/80 sm:text-2xl">
-                30+ Years
+              <p className="mt-4 max-w-lg text-[15px] leading-7 text-muted-foreground sm:text-base">
+                Accounting, financial management, and business consulting
+                leadership across complex organizations and industries.
               </p>
             </div>
 
             <a
               href="#leadership-story"
-              className={`group mt-2 inline-flex items-center gap-3 text-[11px] font-semibold tracking-[0.2em] text-primary uppercase transition-[opacity,transform,color] delay-[650ms] duration-700 ease-out hover:text-accent sm:text-xs ${
+              className={`group mt-7 inline-flex items-center gap-3 text-[11px] font-semibold tracking-[0.2em] text-primary uppercase transition-[opacity,transform,color] delay-[650ms] duration-700 ease-out hover:text-accent sm:text-xs ${
                 introVisible
                   ? "translate-y-0 opacity-100"
                   : "translate-y-6 opacity-0"
@@ -215,12 +228,12 @@ export function LeadershipSection() {
           >
             <div className="flex max-w-[720px] flex-col gap-5 text-[15px] leading-7 text-muted-foreground sm:text-base sm:leading-8">
               <p className="text-[16px] leading-7 text-foreground/85 sm:text-[17px] sm:leading-8">
-                Rowena Moyer, CMA, brings more than 30 years of experience in
-                accounting, finance, financial management, and business
-                consulting. Her background includes controllership, budgeting,
-                audits, forensic accounting, tax debt resolution, grant
-                funding, cost accounting, financial analysis, and restructuring
-                accounting systems and business operations.
+                Rowena Moyer, CMA, has worked across accounting, finance,
+                financial management, and business consulting. Her background
+                includes controllership, budgeting, audits, forensic accounting,
+                tax debt resolution, grant funding, cost accounting, financial
+                analysis, and restructuring accounting systems and business
+                operations.
               </p>
 
               <p>
