@@ -127,9 +127,6 @@ export function LeadershipSection() {
               <p className="text-[11px] font-semibold tracking-[0.28em] text-foreground uppercase sm:text-xs">
                 Founder and Chief Executive Officer
               </p>
-              <p className="mt-4 text-lg font-semibold tracking-[-0.01em] text-foreground/75 sm:text-xl">
-                30+ Years
-              </p>
             </div>
 
             <a
