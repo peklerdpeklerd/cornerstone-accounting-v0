@@ -1,10 +1,10 @@
 import {
   BadgeCheck,
   Building2,
-  CalendarClock,
   ClipboardList,
   HandCoins,
   Landmark,
+  Medal,
   type LucideIcon,
 } from "lucide-react";
 
@@ -17,11 +17,11 @@ type Highlight = {
 
 const highlights: Highlight[] = [
   {
-    metric: "30+ Years",
-    label: "Professional Experience",
+    metric: "CMA",
+    label: "Professional Credential",
     description:
-      "Rowena Moyer brings more than 30 years of experience in accounting, finance, financial management, and business consulting.",
-    icon: CalendarClock,
+      "Rowena Moyer is a Certified Management Accountant with extensive experience in accounting, finance, financial management, and business consulting.",
+    icon: Medal,
   },
   {
     metric: "$60 Million Company",
