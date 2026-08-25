@@ -91,20 +91,8 @@ export function LeadershipSection() {
             </p>
           </div>
 
-          <div className="mt-9">
-            <div className="overflow-hidden">
-              <p
-                className={`text-[1.75rem] leading-none font-medium text-muted-foreground transition-[opacity,transform] delay-150 duration-700 ease-out sm:text-[2rem] ${
-                  introVisible
-                    ? "translate-y-0 opacity-100"
-                    : "translate-y-full opacity-0"
-                }`}
-              >
-                Introducing
-              </p>
-            </div>
-
-            <div className="mt-3 overflow-hidden pb-2">
+          <div className="mt-10 flex flex-col items-start gap-4 sm:mt-12 sm:gap-5">
+            <div className="overflow-hidden pb-2">
               <h2
                 id="leadership-heading"
                 className={`max-w-3xl text-4xl leading-[1.02] font-bold tracking-[-0.035em] text-balance text-primary transition-[opacity,transform] delay-[250ms] duration-1000 ease-out sm:text-[2.75rem] lg:text-[3.25rem] ${
@@ -118,7 +106,7 @@ export function LeadershipSection() {
             </div>
 
             <div
-              className={`mt-5 transition-[opacity,transform] delay-[450ms] duration-700 ease-out ${
+              className={`transition-[opacity,transform] delay-[450ms] duration-700 ease-out ${
                 introVisible
                   ? "translate-y-0 opacity-100"
                   : "translate-y-8 opacity-0"
@@ -127,11 +115,14 @@ export function LeadershipSection() {
               <p className="text-[11px] font-semibold tracking-[0.28em] text-foreground uppercase sm:text-xs">
                 Founder and Chief Executive Officer
               </p>
+              <p className="mt-5 text-xl font-medium text-foreground/80 sm:text-2xl">
+                30+ Years
+              </p>
             </div>
 
             <a
               href="#leadership-story"
-              className={`group mt-7 inline-flex items-center gap-3 text-[11px] font-semibold tracking-[0.2em] text-primary uppercase transition-[opacity,transform,color] delay-[650ms] duration-700 ease-out hover:text-accent sm:text-xs ${
+              className={`group mt-2 inline-flex items-center gap-3 text-[11px] font-semibold tracking-[0.2em] text-primary uppercase transition-[opacity,transform,color] delay-[650ms] duration-700 ease-out hover:text-accent sm:text-xs ${
                 introVisible
                   ? "translate-y-0 opacity-100"
                   : "translate-y-6 opacity-0"
