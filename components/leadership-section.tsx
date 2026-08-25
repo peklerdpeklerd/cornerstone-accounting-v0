@@ -59,11 +59,11 @@ export function LeadershipSection() {
     >
       <div
         ref={introRef}
-        className="relative mx-auto grid min-h-[calc(100svh-var(--header-height))] w-full max-w-7xl items-center gap-12 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-[1fr_minmax(330px,410px)] lg:gap-16 lg:px-10 lg:py-20 xl:gap-24"
+        className="relative mx-auto grid min-h-[620px] w-full max-w-7xl items-center gap-12 px-5 py-14 sm:min-h-[660px] sm:px-8 sm:py-16 lg:grid-cols-[minmax(0,1.02fr)_minmax(340px,410px)] lg:gap-14 lg:px-10 lg:py-16 xl:gap-18"
       >
         <p
           aria-hidden="true"
-          className={`pointer-events-none absolute top-[9%] left-1/2 -translate-x-1/2 text-[clamp(4.5rem,12vw,10rem)] leading-none font-bold tracking-[-0.07em] text-[#263246]/[0.045] uppercase transition-[opacity,transform] duration-1000 ease-out ${
+          className={`pointer-events-none absolute top-[5%] left-1/2 -translate-x-1/2 text-[clamp(4rem,11vw,8.5rem)] leading-none font-bold tracking-[-0.07em] text-[#263246]/[0.03] uppercase transition-[opacity,transform] duration-1000 ease-out ${
             introVisible
               ? "translate-y-0 opacity-100"
               : "translate-y-12 opacity-0"
@@ -72,7 +72,7 @@ export function LeadershipSection() {
           Leadership
         </p>
 
-        <div className="relative z-10 max-w-2xl">
+        <div className="relative z-10 max-w-[640px]">
           <div
             className={`flex items-center gap-4 transition-[opacity,transform] duration-700 ease-out ${
               introVisible
@@ -83,67 +83,72 @@ export function LeadershipSection() {
             <span
               aria-hidden="true"
               className={`h-px bg-primary transition-[width] delay-100 duration-700 ease-out ${
-                introVisible ? "w-10" : "w-0"
+                introVisible ? "w-12" : "w-0"
               }`}
             />
-            <p className="text-xs font-semibold tracking-[0.22em] text-primary uppercase sm:text-sm">
+            <p className="text-[11px] font-semibold tracking-[0.28em] text-primary uppercase sm:text-xs">
               The Leadership Behind AccountingDC
             </p>
           </div>
 
-          <div className="mt-5 overflow-hidden">
-            <p
-              className={`text-xl font-medium text-muted-foreground transition-[opacity,transform] delay-150 duration-700 ease-out sm:text-2xl ${
+          <div className="mt-9">
+            <div className="overflow-hidden">
+              <p
+                className={`text-[1.75rem] leading-none font-medium text-muted-foreground transition-[opacity,transform] delay-150 duration-700 ease-out sm:text-[2rem] ${
+                  introVisible
+                    ? "translate-y-0 opacity-100"
+                    : "translate-y-full opacity-0"
+                }`}
+              >
+                Introducing
+              </p>
+            </div>
+
+            <div className="mt-3 overflow-hidden pb-2">
+              <h2
+                id="leadership-heading"
+                className={`max-w-3xl text-4xl leading-[1.02] font-bold tracking-[-0.035em] text-balance text-primary transition-[opacity,transform] delay-[250ms] duration-1000 ease-out sm:text-[2.75rem] lg:text-[3.25rem] ${
+                  introVisible
+                    ? "translate-y-0 opacity-100"
+                    : "translate-y-[115%] opacity-0"
+                }`}
+              >
+                Rowena Moyer<span className="text-foreground">, CMA</span>
+              </h2>
+            </div>
+
+            <div
+              className={`mt-5 transition-[opacity,transform] delay-[450ms] duration-700 ease-out ${
                 introVisible
                   ? "translate-y-0 opacity-100"
-                  : "translate-y-full opacity-0"
+                  : "translate-y-8 opacity-0"
               }`}
             >
-              Introducing
-            </p>
-          </div>
+              <p className="text-[11px] font-semibold tracking-[0.28em] text-foreground uppercase sm:text-xs">
+                Founder and Chief Executive Officer
+              </p>
+              <p className="mt-4 text-lg font-semibold tracking-[-0.01em] text-foreground/75 sm:text-xl">
+                30+ Years
+              </p>
+            </div>
 
-          <div className="overflow-hidden pb-2">
-            <h2
-              id="leadership-heading"
-              className={`max-w-3xl text-4xl leading-[1.02] font-bold tracking-[-0.035em] text-balance text-primary transition-[opacity,transform] delay-[250ms] duration-1000 ease-out sm:text-[2.75rem] lg:text-[3.25rem] ${
+            <a
+              href="#leadership-story"
+              className={`group mt-7 inline-flex items-center gap-3 text-[11px] font-semibold tracking-[0.2em] text-primary uppercase transition-[opacity,transform,color] delay-[650ms] duration-700 ease-out hover:text-accent sm:text-xs ${
                 introVisible
                   ? "translate-y-0 opacity-100"
-                  : "translate-y-[115%] opacity-0"
+                  : "translate-y-6 opacity-0"
               }`}
             >
-              Rowena Moyer<span className="text-foreground">, CMA</span>
-            </h2>
+              Discover her story
+              <span className="flex h-10 w-10 items-center justify-center rounded-full border border-primary/30 transition-colors group-hover:border-accent group-hover:bg-primary group-hover:text-white">
+                <ArrowDown
+                  aria-hidden="true"
+                  className="h-4 w-4 transition-transform duration-300 group-hover:translate-y-0.5"
+                />
+              </span>
+            </a>
           </div>
-
-          <div
-            className={`mt-5 transition-[opacity,transform] delay-[450ms] duration-700 ease-out ${
-              introVisible
-                ? "translate-y-0 opacity-100"
-                : "translate-y-8 opacity-0"
-            }`}
-          >
-            <p className="text-xs font-semibold tracking-[0.24em] text-foreground uppercase sm:text-sm">
-              Founder and Chief Executive Officer
-            </p>
-          </div>
-
-          <a
-            href="#leadership-story"
-            className={`group mt-7 inline-flex items-center gap-3 text-xs font-semibold tracking-[0.16em] text-primary uppercase transition-[opacity,transform,color] delay-[650ms] duration-700 ease-out hover:text-accent ${
-              introVisible
-                ? "translate-y-0 opacity-100"
-                : "translate-y-6 opacity-0"
-            }`}
-          >
-            Discover her story
-            <span className="flex h-9 w-9 items-center justify-center rounded-full border border-primary/35 transition-colors group-hover:border-accent group-hover:bg-primary group-hover:text-white">
-              <ArrowDown
-                aria-hidden="true"
-                className="h-4 w-4 animate-bounce"
-              />
-            </span>
-          </a>
         </div>
 
         <div
@@ -155,24 +160,24 @@ export function LeadershipSection() {
         >
           <div
             aria-hidden="true"
-            className={`absolute -bottom-5 -left-5 h-[62%] bg-primary shadow-[0_24px_60px_-32px_rgba(122,20,22,0.75)] transition-[width] delay-[550ms] duration-1000 ease-out sm:-bottom-7 sm:-left-7 ${
-              introVisible ? "w-[44%]" : "w-0"
+            className={`absolute -bottom-6 -left-6 h-[58%] bg-primary shadow-[0_24px_60px_-32px_rgba(122,20,22,0.75)] transition-[width] delay-[550ms] duration-1000 ease-out sm:-bottom-7 sm:-left-7 ${
+              introVisible ? "w-[46%]" : "w-0"
             }`}
           />
           <div
             aria-hidden="true"
-            className={`absolute -top-5 -right-5 border-t border-r border-primary/35 transition-[width,height] delay-[500ms] duration-1000 ease-out sm:-top-7 sm:-right-7 ${
-              introVisible ? "h-28 w-28 sm:h-36 sm:w-36" : "h-0 w-0"
+            className={`absolute -top-5 -right-5 border-t border-r border-primary/30 transition-[width,height] delay-[500ms] duration-1000 ease-out sm:-top-6 sm:-right-6 ${
+              introVisible ? "h-24 w-24 sm:h-32 sm:w-32" : "h-0 w-0"
             }`}
           />
 
-          <div className="group relative ml-4 aspect-4/5 overflow-hidden border border-white/90 bg-[#e6e6e9] shadow-[0_36px_80px_-40px_rgba(31,42,58,0.8)] sm:ml-6">
+          <div className="group relative ml-3 aspect-4/5 overflow-hidden border border-white/90 bg-[#e6e6e9] shadow-[0_36px_80px_-40px_rgba(31,42,58,0.8)] sm:ml-4">
             <Image
               src="/images/rowena-moyer.png"
               alt="Rowena Moyer, Founder and Chief Executive Officer of CornerStone Business Accounting Solutions"
               fill
               sizes="(max-width: 640px) 82vw, (max-width: 1024px) 380px, 410px"
-              className="object-cover object-top transition-transform duration-1000 ease-out group-hover:scale-[1.025]"
+              className="object-cover object-top transition-transform duration-1000 ease-out group-hover:scale-[1.02]"
             />
 
             <div
@@ -186,7 +191,7 @@ export function LeadershipSection() {
 
         <div
           aria-hidden="true"
-          className={`absolute bottom-0 left-1/2 h-14 w-px origin-bottom bg-primary/25 transition-transform delay-[750ms] duration-700 ${
+          className={`absolute bottom-0 left-1/2 h-12 w-px origin-bottom bg-primary/20 transition-transform delay-[750ms] duration-700 ${
             introVisible ? "scale-y-100" : "scale-y-0"
           }`}
         />
