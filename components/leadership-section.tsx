@@ -91,7 +91,7 @@ export function LeadershipSection() {
             </p>
           </div>
 
-          <div className="mt-7 overflow-hidden">
+          <div className="mt-5 overflow-hidden">
             <p
               className={`text-xl font-medium text-muted-foreground transition-[opacity,transform] delay-150 duration-700 ease-out sm:text-2xl ${
                 introVisible
@@ -103,7 +103,7 @@ export function LeadershipSection() {
             </p>
           </div>
 
-          <div className="mt-1 overflow-hidden pb-2">
+          <div className="overflow-hidden pb-2">
             <h2
               id="leadership-heading"
               className={`max-w-3xl text-4xl leading-[1.02] font-bold tracking-[-0.035em] text-balance text-primary transition-[opacity,transform] delay-[250ms] duration-1000 ease-out sm:text-[2.75rem] lg:text-[3.25rem] ${
@@ -117,7 +117,7 @@ export function LeadershipSection() {
           </div>
 
           <div
-            className={`mt-6 transition-[opacity,transform] delay-[450ms] duration-700 ease-out ${
+            className={`mt-5 transition-[opacity,transform] delay-[450ms] duration-700 ease-out ${
               introVisible
                 ? "translate-y-0 opacity-100"
                 : "translate-y-8 opacity-0"
@@ -130,7 +130,7 @@ export function LeadershipSection() {
 
           <a
             href="#leadership-story"
-            className={`group mt-9 inline-flex items-center gap-3 text-xs font-semibold tracking-[0.16em] text-primary uppercase transition-[opacity,transform,color] delay-[650ms] duration-700 ease-out hover:text-accent ${
+            className={`group mt-7 inline-flex items-center gap-3 text-xs font-semibold tracking-[0.16em] text-primary uppercase transition-[opacity,transform,color] delay-[650ms] duration-700 ease-out hover:text-accent ${
               introVisible
                 ? "translate-y-0 opacity-100"
                 : "translate-y-6 opacity-0"
